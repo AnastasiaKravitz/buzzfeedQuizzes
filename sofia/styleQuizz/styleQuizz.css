@@ -1,0 +1,76 @@
+#container {
+    display: flex;
+    flex-direction: row;
+  }
+  .questions {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .header {
+    width: 150px;
+  }
+  .answers {
+    height: 200px;
+    align-self: center;
+    width: 200px;
+    text-align: center;
+    
+    line-height: 100px;
+  
+    border: 2.5px solid black;
+  }
+  .container1 {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .allAnswers {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+  }
+  .img {
+    display: flex;
+    align-self: center;
+    height: 370px;
+    width: 600px;
+  
+  
+  }
+  .headers {
+    display: flex;
+    margin-left: 20px;
+    height: 50px;
+  }
+  .headers2 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: -10px;
+    height: 50px;
+  }
+  .sideRight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+  }
+  #image{
+    height: 100%;
+    width: 100%;
+  }
+  
+  #questionNumber{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  #questionText{
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  .allAnswers{
+    font-family: 'Righteous', cursive;
+  }
