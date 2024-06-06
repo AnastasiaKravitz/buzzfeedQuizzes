@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    font-family: Nerko One;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/c7/99/01/c79901f26271abe179cb15ec5627b0b2.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* #timeEraQuizzButton:hover{
+    opacity: 0.5;
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
+    
+}
+
+#timeEraQuizzButton::after{
+    opacity: 0.5;
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+} */
+
+h1{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.45px;
+    -webkit-text-stroke-color: black;
+}
+
+h2{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.45px;
+    -webkit-text-stroke-color: black;
+}
+
+#title{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+
+
+#timeEraQuizzButton{
+    background-color: rgb(90, 199, 216);
+    border:solid rgb(66, 143, 155) 5px;
+    border-radius: 15px;
+    position: absolute;
+    vertical-align:middle;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#genreButton{
+    background-color: rgb(90, 199, 216);
+    border:solid rgb(66, 143, 155) 5px;
+    border-radius: 15px;
+    position: absolute;
+    vertical-align:middle;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#aestheticButton{
+    background-color: rgb(90, 199, 216);
+    border:solid rgb(66, 143, 155) 5px;
+    border-radius: 15px;
+    position: absolute;
+    vertical-align:middle;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#styleButton{
+    background-color: rgb(90, 199, 216);
+    border:solid rgb(66, 143, 155) 5px;
+    border-radius: 15px;
+    position: absolute;
+    vertical-align:middle;
+    top: 90%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    padding-left: 5%;
+    padding-right: 5%;
+}

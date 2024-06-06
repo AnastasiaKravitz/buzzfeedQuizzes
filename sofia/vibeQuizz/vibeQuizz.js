@@ -13,12 +13,12 @@ demo4.style.backgroundColor = "#E18FE6";
 
 
 
-var aq=["Which shoes would you rather wear?","What jewelery wuold you wear?","Which bag would you rather have?","What outfit would you wear?","What kind of makeup would you loke to do for yourself?"]
+var aq=["What kind of room would you like to have?","Which artists do you like the most?","Which animal do you like best?","What subject are you best at?","What kind of food do you like?"]
 
-var q2=["https://i.pinimg.com/564x/9e/6d/74/9e6d74338ecfa53b9bbb7663a0cd14b7.jpg","https://i.pinimg.com/736x/e2/38/3b/e2383be6ddb02f2b72d019f51a0191cc.jpg","https://i.pinimg.com/564x/87/e7/c7/87e7c7a5c66a6e6c8617539f2738faa0.jpg","https://i.pinimg.com/736x/2a/85/69/2a856908648ff91c6ca0b123c38ffc39.jpg"]
-var q3=["https://i.pinimg.com/564x/92/07/d7/9207d7417644ccfe44d7de1caae391d3.jpg","https://i.pinimg.com/736x/f7/6d/bb/f76dbb3c70ff2cf5e75a56cf701b1dc2.jpg","https://i.pinimg.com/736x/ce/a8/5b/cea85bcb2a468cba294c4acfd60cec31.jpg","https://i.pinimg.com/564x/03/88/73/03887343ac7c8a76a82729940d6e8b38.jpg"]
-var q4=["https://i.pinimg.com/564x/fb/ac/b5/fbacb5170f8a7a2f355696db22eda398.jpg","https://i.pinimg.com/564x/4f/5d/0d/4f5d0d98ccb8a53e5b5001b362c72584.jpg","https://i.pinimg.com/564x/b4/33/5c/b4335cd54c23817bfe65674d05fe4d52.jpg","https://i.pinimg.com/564x/82/b4/20/82b420ceef30a3bcfc897d6331081347.jpg"]
-var q5=["https://i.pinimg.com/736x/ca/ec/57/caec57b28cbf157aaa1ee46bd41fc227.jpg","https://i.pinimg.com/564x/51/5b/e9/515be92a46dd35ac3bb713017132035b.jpg","https://i.pinimg.com/564x/c9/3f/5e/c93f5ed125c96608ba34252075178a00.jpg","https://i.pinimg.com/564x/e3/0b/e1/e30be10b3d1ef5c89a15e388572d12ff.jpg"]
+var q2=["https://i.pinimg.com/564x/c7/c8/8e/c7c88ed1a8890727e4845207091245ac.jpg","https://i.pinimg.com/564x/cf/b1/04/cfb104f0f317bb0dc0d6ca3f73cff5e3.jpg","https://i.pinimg.com/564x/9b/12/d9/9b12d998917813c757d96f6466c2f45c.jpg","https://i.pinimg.com/564x/94/ba/cd/94bacda37fbabb3bd37bc53ea6691299.jpg"]
+var q3=["https://i.pinimg.com/564x/64/48/55/644855fa3e593c12737da820b9c87717.jpg","https://i.pinimg.com/564x/d3/5b/e5/d35be548972162eb14e0061938ac4550.jpg","https://i.pinimg.com/564x/77/20/63/77206397b0cb826bc9ffd1c0062c3250.jpg","https://i.pinimg.com/564x/03/0f/9a/030f9a4343345c1267732d7c9f3edd93.jpg"]
+var q4=["https://i.pinimg.com/736x/13/84/d5/1384d56c604f75a51b36ee8435ee6ed4.jpg","https://i.pinimg.com/736x/7b/b1/92/7bb19236ff5c5bfe1d1dd15029fb6fe4.jpg","https://i.pinimg.com/564x/f5/3c/c0/f53cc094f498c91fd598f840fc5867f0.jpg","https://i.pinimg.com/564x/38/80/8a/38808a240b11117eface344980cc230a.jpg"]
+var q5=["https://i.pinimg.com/736x/c6/bc/28/c6bc2813bf601390850e3ebaabadcf70.jpg","https://i.pinimg.com/564x/42/95/88/429588cff1c447d676d30b28af8e4b6d.jpg","https://i.pinimg.com/736x/c6/96/e7/c696e71535376c1737b90b943ea024f8.jpg","https://i.pinimg.com/564x/71/b1/c8/71b1c85936b8576dfdd49035f61ccd2b.jpg"]
 
 var b=["yellow","reding books","not to be afraid of the different","brown","in the village"]
 
@@ -132,4 +132,3 @@ function p4(){
   poin=poin+1;
   console.log(poin);
 }
-
