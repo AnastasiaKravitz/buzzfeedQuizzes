@@ -39,7 +39,7 @@ function say(){
 
   
   if (coun==1){
-    alert("coun1")
+    
     document.getElementById("questionText").innerHTML = aq[1]
 
     document.getElementById("questionNumber").innerHTML = "Questions - 2"
@@ -112,23 +112,54 @@ var p=0;
 var po=0;
 var poi=0;
 var poin=0;
+points=0
 
 function p1(){
   p=p+1;
   console.log(p);
+  points=points+0;
 }
 
 function p2(){
   po=po+1;
   console.log(po);
+  points=points+100;
 }
 
 function p3(){
   poi=poi+1;
   console.log(poi);
+  points=points+200;
 }
 
 function p4(){
   poin=poin+1;
   console.log(poin);
+  points=points+300;
 }
+
+var result="";
+function results(){
+  if (points<500){
+    result=1;
+  }
+
+  else if (points>=500 && points<=1000){
+    result=2;
+  }
+
+  else if (points>=1000 && points<=15000){
+    result=3;
+  }
+
+  else if (points<=15000){
+    result=4;
+  }
+}
+
+function finalresult(){
+  if(result==1){
+    
+  }
+}
+

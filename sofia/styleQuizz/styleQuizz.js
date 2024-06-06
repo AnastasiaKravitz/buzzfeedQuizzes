@@ -39,7 +39,7 @@ function say(){
 
   
   if (coun==1){
-    alert("coun1")
+    
     document.getElementById("questionText").innerHTML = aq[1]
 
     document.getElementById("questionNumber").innerHTML = "Questions - 2"

@@ -12,43 +12,91 @@
 </head>
 <body>
 
-    <div id="title">
+    <!-- <div id="title">
         <h1>What time era from 1900s-2000s do you belong in?</h1>
         <h2>Question:</h2>
         <h2 id="question"></h2>
+    </div> -->
+
+    <!-- <div>
+        <div id="option1" class="options" onclick="p1();say()">
+            <br>
+            <h4 id="option1txt"></h4>
+            <img src="" height="300"></img>
+            <br></br>
+        </div>
+
+        <div id="option2" class="options" onclick="p2();say()">
+            <br>
+            <h4 id="option2txt"></h4>
+            <img src="" height="300"></img>
+            <br></br>
+        </div>
+
+        <div id="option3" class="options" onclick="p3();say()">
+            <br>
+            <h4 id="option3txt"></h4>
+            <img src="" height="300"></img>
+            <br></br>
+        </div>
+
+        <div id="option4" class="options" onclick="p4();say()">
+            <br>
+            <h4 id="option4txt"></h4>
+            <img src="" height="300"></img>
+            <br></br>
+        </div>
+ -->
+
+
+
+    
+
+
+<div class="header">
+  <h1 id="header">BuzzFeedQuizz - What's your style??</h1>
+  <br>
+  <br>
+</div>
+<div id="container">
+  <div class="questions">
+    <div class="headers">
+      <h1 id="questionNumber">Questions - 1</h1>
+    </div>
+    <div  class="headers2">
+      <h2 id="questionText">Which shoes would you rather wear? </h2>
     </div>
 
-    <div>
-        <div id="timeEraQuizzButton" class="quizzesButtons" onclick="timeEraQuizz()">
-            <br>
-            <h4>What time era from 1900s-2000s do you belong in?</h4>
-            <img src="https://i.pinimg.com/564x/d2/b7/1f/d2b71f0d68e2dea890236e1365762293.jpg" height="300"></img>
-            <br></br>
+    <div class="allAnswers">
+      <div class="container1">
+        <div class="answers" onclick="p1();say()"  >
+            <img  id = "1" src="https://i.pinimg.com/564x/02/b6/7f/02b67f6976ec73be7374688b21e6fbc4.jpg" height="200"></img>
+        </div>
+        <div class="answers" onclick="p2();say()">
+            <img id="2" src="https://i.pinimg.com/736x/a2/52/16/a25216c80e05809c332eca83f90bdf49.jpg" height="200"></img>
         </div>
 
-
-        <div id="genreButton" class="quizzesButtons" onclick="genreQuizz()">
-            <br>
-            <h4>What book/movie genre do you belong in?</h4>
-            <img src="https://cdn.schoolstickers.com/products/en/819/173718-00.png" height="300"></img>
-            <br></br>
+      </div>
+      <div class="container1">
+        <div  class="answers" onclick="p3();say()"   >
+            <img   id="3" src="https://i.pinimg.com/564x/39/61/b7/3961b78b870af39106e6cf29e6e7379f.jpg" height="200"></img>
         </div>
-
-
-        <div id="aestheticButton" class="quizzesButtons" onclick="aestheticQuizz()">
-            <br>
-            <h4>What's your aesthetic?</h4>
-            <img src="https://images.squarespace-cdn.com/content/v1/598d73bda5790a4026d65a79/1617021505985-HRI67BWB419TZDSYAH0E/IMG_4868.JPG" height="300"></img>
-            <br></br>
+        <div  class="answers" onclick="p4();say()" >
+            <img id="4" src="https://i.pinimg.com/736x/1d/b0/b0/1db0b056c20500d9ac7f991f8a8bc178.jpg" height="200"></img>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="sideRight">
+    
+    <div id="nextQ">
+      <h1 id="nextQ2" onclick="say()"></h1>
+    </div>
+  </div>
+</div>
+  
 
-
-        <div id="styleButton" class="quizzesButtons" onclick="styleQuizz()">
-            <br>
-            <h4>What's your style?</h4>
-            <img src="https://www.airtasker.com/blog/wp-content/uploads/2018/11/213BF2A7-2AE4-43C1-BB5E-74A5B9BD7649.jpeg" height="300"></img>
-            <br></br>
-        </div>
+       
 
         
 

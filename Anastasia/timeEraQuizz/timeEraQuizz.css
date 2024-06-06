@@ -1,11 +1,11 @@
-body{
+/* body{
     text-align: center;
     font-family: Nerko One;
     color: black;
     background-image: url('https://i.pinimg.com/originals/c7/99/01/c79901f26271abe179cb15ec5627b0b2.png');
     background-repeat: no-repeat;
     background-size: cover; 
-}
+} */
 
 /* #timeEraQuizzButton:hover{
     opacity: 0.5;
@@ -18,7 +18,7 @@ body{
     box-shadow: 0 0 15px rgba(33,33,33,.2);
 } */
 
-h1{
+/* h1{
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 0.45px;
     -webkit-text-stroke-color: black;
@@ -36,7 +36,7 @@ h2{
 
 
 
-#timeEraQuizzButton{
+#option1{
     background-color: rgb(90, 199, 216);
     border:solid rgb(66, 143, 155) 5px;
     border-radius: 15px;
@@ -49,7 +49,7 @@ h2{
     padding-right: 2%;
 }
 
-#genreButton{
+#option2{
     background-color: rgb(90, 199, 216);
     border:solid rgb(66, 143, 155) 5px;
     border-radius: 15px;
@@ -62,7 +62,7 @@ h2{
     padding-right: 3%;
 }
 
-#aestheticButton{
+#option3{
     background-color: rgb(90, 199, 216);
     border:solid rgb(66, 143, 155) 5px;
     border-radius: 15px;
@@ -75,7 +75,7 @@ h2{
     padding-right: 3%;
 }
 
-#styleButton{
+#option4{
     background-color: rgb(90, 199, 216);
     border:solid rgb(66, 143, 155) 5px;
     border-radius: 15px;
@@ -86,4 +86,142 @@ h2{
     transform: translate(-50%, -50%);
     padding-left: 5%;
     padding-right: 5%;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .questions {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+#header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+  }
+  .answers {
+    height: 200px;
+    align-self: center;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    line-height: 100px;
+  
+    border: 2.5px solid black;
+  }
+  .container1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    width: 500px;
+    height: 250px;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .allAnswers {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+  }
+  .img {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    align-self: center;
+    height: 370px;
+    width: 600px;
+  
+  
+  }
+  .headers {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    margin-left: 20px;
+    height: 50px;
+  }
+  .headers2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    margin-left: 20px;
+    margin-top: -10px;
+    height: 50px;
+  }
+  .sideRight {
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+  }
+  #image{
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    height: 100%;
+    width: 100%;
+  }
+  
+  #questionNumber{
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  #questionText{
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  .allAnswers{
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Centers text within the container */
+    font-family: 'Righteous', cursive;
+  }
+
+
